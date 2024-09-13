@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    background-image: url("https://external-preview.redd.it/oY1ZRQZtNGCdFVF1xcuTh-sxNdgk0Ui3TU2ARB287dQ.png?auto=webp&s=fc2bd687bc3a61426e2f888eed3b1e8438e5fcdc");
+   
+}
+
+#heads{
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.content{
+     display:flex;
+     justify-content:center;
+     align-items: center; 
+     gap: 2rem;
+     margin: 40px;
+}
+.content img{
+     margin: 30px;
+     width: 150px; 
+     box-shadow: 0 0 10px black;
+     border-radius: 100%;
+    
+}
+
+.scrore-container{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    padding: 60px;
+    color: white;
+    gap: 6rem;
+    
+}
+
+.btn-con {
+    
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+    
+}
+.btn-con #btn{
+        padding: 30px 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 30px black;
+}
+.btn-con #butt1{
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px black;
+}
+.box:hover{
+    cursor: pointer;
+    opacity: 0.5;
+     border: 1px solid black;
+    border-radius: 100%;
+}
+.score p{
+    font-size:40px;
+    color:black;
+}
+.score h1::first-letter {
+    font-size: 200%;
+    color:brown;
+  }
+
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .content,.scrore-container,.btn-con {
+      width: 100%;
+    }
+  }
